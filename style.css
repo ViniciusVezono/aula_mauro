@@ -46,11 +46,17 @@
     border-radius: 15px;
     height: 26px;
     padding-left: 14px;
+    padding-right: 14px;
     /* Espaçamento entre o ícone de pesquisa e o campo de texto */
   }
   
   .nav-icon {
     display: flex;
+  }
+
+  .nav-icon a{
+    text-decoration: none;
+    color: #000;
   }
   
   .material-symbols-outlined {
